@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: studio-bot
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_ID
+        sync: false
+      - key: PROXY_URL
+        value: ""

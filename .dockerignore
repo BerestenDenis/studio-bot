@@ -1,0 +1,5 @@
+.venv
+*.db
+admin_id.txt
+__pycache__
+.env
